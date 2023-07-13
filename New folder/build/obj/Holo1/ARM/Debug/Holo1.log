@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3106: Assembly strong name "C:\Program Files\Unity\2022.3.1f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Debug\UnityPlayer.winmd" is either a path which could not be found or it is a full assembly name which is badly formed. If it is a full assembly name it may contain characters that need to be escaped with backslash(\). Those characters are Equals(=), Comma(,), Quote("), Apostrophe('), Backslash(\).
+  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+C:\00github\Holo1\New folder\Holo1\App.h(19,9): error C2653: 'UnityPlayer': is not a class or namespace name (compiling source file App.cpp)
+C:\00github\Holo1\New folder\Holo1\App.h(19,34): error C2143: syntax error: missing ';' before '^' (compiling source file App.cpp)
+C:\00github\Holo1\New folder\Holo1\App.h(19,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file App.cpp)
+C:\00github\Holo1\New folder\Holo1\App.h(19,50): error C2238: unexpected token(s) preceding ';' (compiling source file App.cpp)
+C:\00github\Holo1\New folder\Holo1\App.cpp(7,28): error C2871: 'UnityPlayer': a namespace with this name does not exist
+C:\00github\Holo1\New folder\Holo1\App.cpp(17,5): error C2065: 'm_AppCallbacks': undeclared identifier
+C:\00github\Holo1\New folder\Holo1\App.cpp(17,30): error C2061: syntax error: identifier 'AppCallbacks'
+C:\00github\Holo1\New folder\Holo1\App.cpp(18,5): error C2065: 'm_AppCallbacks': undeclared identifier
+C:\00github\Holo1\New folder\Holo1\App.h(19,9): error C2653: 'UnityPlayer': is not a class or namespace name (compiling source file Main.cpp)
+C:\00github\Holo1\New folder\Holo1\App.h(19,34): error C2143: syntax error: missing ';' before '^' (compiling source file Main.cpp)
+C:\00github\Holo1\New folder\Holo1\App.h(19,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file Main.cpp)
+C:\00github\Holo1\New folder\Holo1\App.h(19,50): error C2238: unexpected token(s) preceding ';' (compiling source file Main.cpp)
+C:\00github\Holo1\New folder\Holo1\App.cpp(26,5): error C2065: 'm_AppCallbacks': undeclared identifier
+C:\00github\Holo1\New folder\Holo1\App.cpp(27,5): error C2065: 'm_AppCallbacks': undeclared identifier
+C:\00github\Holo1\New folder\Holo1\App.cpp(36,5): error C2065: 'm_AppCallbacks': undeclared identifier
+C:\00github\Holo1\New folder\Holo1\App.cpp(41,5): error C2065: 'm_AppCallbacks': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\WindowsXaml\v16.0\8.2\Microsoft.Windows.UI.Xaml.Common.targets(415,5): error MSB4181: The "CompileXaml" task returned false but did not log an error.

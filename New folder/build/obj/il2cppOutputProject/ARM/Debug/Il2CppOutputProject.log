@@ -1,0 +1,25 @@
+﻿  C:\00github\Holo1\New folder\Il2CppOutputProject\IL2CPP\build\deploy\il2cpp.exe --compile-cpp --platform=WinRT --incremental-g-c-time-slice=3 --relative-data-path=Data/il2cpp_data --dotnetprofile=unityaot-win32 --profiler-report --print-command-line --architecture=ARMv7 --configuration=Debug --outputpath=C:\00github\Holo1\New folder\\build\bin\ARM\Debug\GameAssembly.dll --data-folder=C:\00github\Holo1\New folder\\build\bin\ARM\Debug\ --cachedirectory=C:\00github\Holo1\New folder\\build\obj\il2cppOutputProject\ARM\Debug\ --generatedcppdir=C:\00github\Holo1\New folder\Il2CppOutputProject\\Source --verbose --baselib-directory=C:\Program Files\Unity\2022.3.1f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Debug --profiler-output-file=C:\00github\Holo1\New folder\\build\obj\il2cppOutputProject\ARM\Debug\profile.json
+  Starting: C:\00github\Holo1\New folder\Il2CppOutputProject\IL2CPP\build\deploy\bee_backend\win-x64\bee_backend.exe --profile="C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate/backend_profiler0.traceevents" --beedriver-listener --dagfile="C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate/bee.dag" --continue-on-failure FinalProgram
+  WorkingDir: C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate
+  ExitCode: 4 Duration: 0s83ms
+EXEC : warning : You are currently using Visual Studio 2019 to compile and link C++ code. It is recommended that you upgrade to Visual Studio 2022 for better performance.
+  ExitCode: 0 Duration: 0s1ms
+  Starting: C:\00github\Holo1\New folder\Il2CppOutputProject\IL2CPP\build\deploy\bee_backend\win-x64\bee_backend.exe --profile="C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate/backend_profiler1.traceevents" --beedriver-listener --dagfile="C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate/bee.dag" --continue-on-failure --dagfilejson="C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate/bee.dag.json" FinalProgram
+  WorkingDir: C:/00github/Holo1/New folder/build/obj/il2cppOutputProject/ARM/Debug/buildstate
+  ExitCode: 3 Duration: 1m:36s
+  Build failed with 775 successful nodes and 2 failed ones
+  Annotation: CopyFiles C:/00github/Holo1/New folder/build/bin/ARM/Debug/baselib.dll
+  Cmdline: ul
+  ExitCode: -1
+  Stdout: 
+  The source path C:\Program Files\Unity\2022.3.1f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Debug\baselib.dll does not exist.
+  
+EXEC : error : Unity.IL2CPP.Building.BuilderFailedException: Build failed with 775 successful nodes and 2 failed ones
+  Annotation: CopyFiles C:/00github/Holo1/New folder/build/bin/ARM/Debug/baselib.dll
+  Cmdline: ul
+  ExitCode: -1
+  Stdout: 
+  The source path C:\Program Files\Unity\2022.3.1f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Debug\baselib.dll does not exist.
+  
+     at il2cpp.Program.DoRun(TinyProfiler2 tinyProfiler, String[] args, RuntimePlatform platform, Il2CppCommandLineArguments il2CppCommandLineArguments, BuildingOptions buildingOptions, Boolean throwExceptions)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\00github\Holo1\New folder\Il2CppOutputProject\\IL2CPP\build\deploy\il2cpp.exe"  --compile-cpp --platform=WinRT --incremental-g-c-time-slice=3 --relative-data-path=Data/il2cpp_data --dotnetprofile=unityaot-win32 --profiler-report --print-command-line --architecture=ARMv7 --configuration=Debug --outputpath="C:\00github\Holo1\New folder\\build\bin\ARM\Debug\GameAssembly.dll" --data-folder="C:\00github\Holo1\New folder\\build\bin\ARM\Debug\\" --cachedirectory="C:\00github\Holo1\New folder\\build\obj\il2cppOutputProject\ARM\Debug\\" --generatedcppdir="C:\00github\Holo1\New folder\Il2CppOutputProject\\Source" --verbose --baselib-directory="C:\Program Files\Unity\2022.3.1f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Debug" --profiler-output-file="C:\00github\Holo1\New folder\\build\obj\il2cppOutputProject\ARM\Debug\profile.json"" exited with code 4.
